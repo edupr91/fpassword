@@ -14,7 +14,7 @@ parser.add_argument('string',
 args = vars(parser.parse_args())
 to_find = args['string']
 
-# load KDBX file
+# KDBX files
 db_kdbx = '/path/to/you/file.kdbx'
 db_key = '/path/to/you/file.kdbx'
 db_password = 'MySuperSecurePassword'
